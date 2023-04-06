@@ -1,0 +1,43 @@
+
+/* Segun gusto o necesidad,
+se puede comentar el background-color del body
+y descomentar en las etiquetas class="lenguaje" y "section > p"
+para conservar el color actual*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: aqua;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lenguaje{
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+section > p {
+    /*background-color: aqua;*/
+    font-size: 16px;
+    padding: 10px;
+    
+}
+footer{
+    background-color: #4989E5;
+
+}
+footer > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
