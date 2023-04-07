@@ -1,0 +1,63 @@
+
+/* Me surgio una duda.
+En el ejercicio_1 el body tiene un color, pero cuando 
+pase los estilos a este css, tuve que armar un <div> para que 
+no se choque con el <body> del actual, pero no me tomo el color de
+background*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{    
+    width: 400px;
+    background-color: #3B0D3B;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+
+/*Barra del navegador*/
+
+.navegador{
+    background-color: #494848;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Articulos de lectura*/
+
+#articles{
+    background-color: aqua;
+}
+.lenguaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+section > p {
+    font-size: 16px;
+    padding: 10px;
+    
+}
+
+/* Pie de pagina */
+
+footer{
+    background-color: #4989E5;
+
+}
+footer > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
